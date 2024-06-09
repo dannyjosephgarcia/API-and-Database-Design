@@ -1,0 +1,9 @@
+multiply_number: 2
+password: ${PASSWORD}
+database:
+  host: "127.0.0.1"
+  username: "root"
+  password: "password123"
+  database_name: "sakila"
+dummy_api:
+  dummy_url: https://dummy.restapiexample.com/api/v1/employees

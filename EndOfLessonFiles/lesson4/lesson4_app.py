@@ -5,7 +5,7 @@ from lesson4_routes import home_route_blueprint
 
 # Note that, in order to output logs in the PyCharm terminal, you cannot write logs to the log.log file
 logging.basicConfig(level=logging.INFO, filename="log.log", filemode='w',
-                    format="%{asctime}s - %{levelname}s - %{message}s")
+                    format="%(asctime)s - %(levelname)s - %(message)s")
 
 
 # Recall that there are 5 levels of logs that can be surfaced

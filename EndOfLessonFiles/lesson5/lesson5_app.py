@@ -5,7 +5,8 @@ from lesson5_container import Container
 from lesson5_routes import home_route_blueprint
 
 
-logging.basicConfig(level=logging.INFO,  format="%{asctime}s - %{levelname}s - %{message}s")
+logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(message)s")
 
 
 def create_app():
